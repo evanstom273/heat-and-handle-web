@@ -1,0 +1,11 @@
+import {rm,mkdir,cp,writeFile,readFile} from 'node:fs/promises';
+await rm('dist',{recursive:true,force:true});
+await mkdir('dist/server',{recursive:true});
+await mkdir('dist/.openai',{recursive:true});
+await cp('web','dist/client',{recursive:true});
+await cp('server/worker.mjs','dist/server/index.js');
+await cp('.openai/hosting.json','dist/.openai/hosting.json');
+await cp('drizzle','dist/.openai/drizzle',{recursive:true});
+await writeFile('dist/server/package.json','{"type":"module"}');
+await writeFile('dist/server/wrangler.json',JSON.stringify({name:'heat-and-handle',main:'index.js',compatibility_date:'2026-05-15',assets:{directory:'../client',binding:'ASSETS',run_worker_first:['/api/*']},d1_databases:[{binding:'DB',database_name:'heat-and-handle',database_id:'00000000-0000-0000-0000-000000000000'}]},null,2));
+console.log('Kitchen client, Worker and migrations built.');

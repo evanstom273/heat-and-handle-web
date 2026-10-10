@@ -1,0 +1,661 @@
+{
+  "notes": "Raw image files are unedited. Generated atlas placement is not perfectly uniform, so use individual source rectangles below instead of equal-cell cropping. Rect format is [x,y,width,height] in source pixels. Bounds cover each main alpha>80 component plus 4px padding; transparent edge speckle may extend beyond these rectangles.",
+  "atlases": {
+    "food-atlas-expanded.png": {
+      "width": 1448,
+      "height": 1086,
+      "columns": 8,
+      "rows": 6,
+      "sprites": {
+        "onion": {
+          "row": 0,
+          "column": 0,
+          "rect": [
+            23,
+            40,
+            155,
+            178
+          ]
+        },
+        "garlic": {
+          "row": 0,
+          "column": 1,
+          "rect": [
+            195,
+            43,
+            160,
+            171
+          ]
+        },
+        "red-pepper": {
+          "row": 0,
+          "column": 2,
+          "rect": [
+            374,
+            36,
+            157,
+            181
+          ]
+        },
+        "broccoli": {
+          "row": 0,
+          "column": 3,
+          "rect": [
+            543,
+            34,
+            187,
+            180
+          ]
+        },
+        "zucchini": {
+          "row": 0,
+          "column": 4,
+          "rect": [
+            734,
+            44,
+            164,
+            172
+          ]
+        },
+        "aubergine": {
+          "row": 0,
+          "column": 5,
+          "rect": [
+            917,
+            29,
+            156,
+            192
+          ]
+        },
+        "cucumber": {
+          "row": 0,
+          "column": 6,
+          "rect": [
+            1091,
+            49,
+            167,
+            160
+          ]
+        },
+        "lettuce": {
+          "row": 0,
+          "column": 7,
+          "rect": [
+            1266,
+            46,
+            173,
+            163
+          ]
+        },
+        "lemon": {
+          "row": 1,
+          "column": 0,
+          "rect": [
+            24,
+            246,
+            150,
+            141
+          ]
+        },
+        "lime": {
+          "row": 1,
+          "column": 1,
+          "rect": [
+            196,
+            240,
+            158,
+            144
+          ]
+        },
+        "apple": {
+          "row": 1,
+          "column": 2,
+          "rect": [
+            377,
+            229,
+            160,
+            159
+          ]
+        },
+        "banana": {
+          "row": 1,
+          "column": 3,
+          "rect": [
+            543,
+            224,
+            179,
+            168
+          ]
+        },
+        "strawberry": {
+          "row": 1,
+          "column": 4,
+          "rect": [
+            748,
+            232,
+            145,
+            162
+          ]
+        },
+        "orange": {
+          "row": 1,
+          "column": 5,
+          "rect": [
+            916,
+            239,
+            159,
+            153
+          ]
+        },
+        "blueberries": {
+          "row": 1,
+          "column": 6,
+          "rect": [
+            1089,
+            246,
+            175,
+            137
+          ]
+        },
+        "pineapple": {
+          "row": 1,
+          "column": 7,
+          "rect": [
+            1297,
+            210,
+            114,
+            192
+          ]
+        },
+        "chicken": {
+          "row": 2,
+          "column": 0,
+          "rect": [
+            16,
+            414,
+            166,
+            143
+          ]
+        },
+        "pork": {
+          "row": 2,
+          "column": 1,
+          "rect": [
+            190,
+            408,
+            174,
+            153
+          ]
+        },
+        "bacon": {
+          "row": 2,
+          "column": 2,
+          "rect": [
+            366,
+            405,
+            174,
+            155
+          ]
+        },
+        "sausage": {
+          "row": 2,
+          "column": 3,
+          "rect": [
+            545,
+            405,
+            175,
+            151
+          ]
+        },
+        "white-fish": {
+          "row": 2,
+          "column": 4,
+          "rect": [
+            728,
+            414,
+            174,
+            142
+          ]
+        },
+        "shrimp": {
+          "row": 2,
+          "column": 5,
+          "rect": [
+            923,
+            412,
+            151,
+            151
+          ]
+        },
+        "egg": {
+          "row": 2,
+          "column": 6,
+          "rect": [
+            1114,
+            405,
+            125,
+            155
+          ]
+        },
+        "tofu": {
+          "row": 2,
+          "column": 7,
+          "rect": [
+            1271,
+            411,
+            159,
+            147
+          ]
+        },
+        "rice": {
+          "row": 3,
+          "column": 0,
+          "rect": [
+            12,
+            586,
+            171,
+            132
+          ]
+        },
+        "oats": {
+          "row": 3,
+          "column": 1,
+          "rect": [
+            194,
+            587,
+            166,
+            137
+          ]
+        },
+        "flour": {
+          "row": 3,
+          "column": 2,
+          "rect": [
+            369,
+            583,
+            171,
+            138
+          ]
+        },
+        "sugar": {
+          "row": 3,
+          "column": 3,
+          "rect": [
+            547,
+            588,
+            171,
+            130
+          ]
+        },
+        "milk": {
+          "row": 3,
+          "column": 4,
+          "rect": [
+            768,
+            551,
+            93,
+            180
+          ]
+        },
+        "cream": {
+          "row": 3,
+          "column": 5,
+          "rect": [
+            918,
+            578,
+            159,
+            150
+          ]
+        },
+        "butter": {
+          "row": 3,
+          "column": 6,
+          "rect": [
+            1091,
+            585,
+            171,
+            136
+          ]
+        },
+        "cheese": {
+          "row": 3,
+          "column": 7,
+          "rect": [
+            1277,
+            566,
+            158,
+            161
+          ]
+        },
+        "bread": {
+          "row": 4,
+          "column": 0,
+          "rect": [
+            10,
+            745,
+            182,
+            153
+          ]
+        },
+        "dough": {
+          "row": 4,
+          "column": 1,
+          "rect": [
+            196,
+            753,
+            163,
+            140
+          ]
+        },
+        "chocolate": {
+          "row": 4,
+          "column": 2,
+          "rect": [
+            366,
+            742,
+            179,
+            157
+          ]
+        },
+        "honey": {
+          "row": 4,
+          "column": 3,
+          "rect": [
+            571,
+            732,
+            132,
+            167
+          ]
+        },
+        "olive-oil": {
+          "row": 4,
+          "column": 4,
+          "rect": [
+            756,
+            729,
+            118,
+            171
+          ]
+        },
+        "soy-sauce": {
+          "row": 4,
+          "column": 5,
+          "rect": [
+            943,
+            727,
+            106,
+            176
+          ]
+        },
+        "ketchup": {
+          "row": 4,
+          "column": 6,
+          "rect": [
+            1129,
+            730,
+            97,
+            174
+          ]
+        },
+        "mustard": {
+          "row": 4,
+          "column": 7,
+          "rect": [
+            1294,
+            730,
+            122,
+            167
+          ]
+        },
+        "parsley": {
+          "row": 5,
+          "column": 0,
+          "rect": [
+            15,
+            903,
+            171,
+            159
+          ]
+        },
+        "rosemary": {
+          "row": 5,
+          "column": 1,
+          "rect": [
+            197,
+            908,
+            164,
+            157
+          ]
+        },
+        "thyme": {
+          "row": 5,
+          "column": 2,
+          "rect": [
+            375,
+            904,
+            156,
+            160
+          ]
+        },
+        "chilli": {
+          "row": 5,
+          "column": 3,
+          "rect": [
+            545,
+            910,
+            167,
+            144
+          ]
+        },
+        "black-pepper": {
+          "row": 5,
+          "column": 4,
+          "rect": [
+            770,
+            894,
+            91,
+            171
+          ]
+        },
+        "salt": {
+          "row": 5,
+          "column": 5,
+          "rect": [
+            945,
+            904,
+            102,
+            160
+          ]
+        },
+        "cumin": {
+          "row": 5,
+          "column": 6,
+          "rect": [
+            1088,
+            922,
+            171,
+            130
+          ]
+        },
+        "paprika": {
+          "row": 5,
+          "column": 7,
+          "rect": [
+            1270,
+            920,
+            166,
+            132
+          ]
+        }
+      }
+    },
+    "equipment-atlas.png": {
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sprites": {
+        "frying-pan": {
+          "row": 0,
+          "column": 0,
+          "rect": [
+            31,
+            33,
+            306,
+            301
+          ]
+        },
+        "saucepan": {
+          "row": 0,
+          "column": 1,
+          "rect": [
+            369,
+            47,
+            260,
+            272
+          ]
+        },
+        "stockpot": {
+          "row": 0,
+          "column": 2,
+          "rect": [
+            632,
+            58,
+            307,
+            270
+          ]
+        },
+        "fryer-basket": {
+          "row": 0,
+          "column": 3,
+          "rect": [
+            974,
+            25,
+            258,
+            315
+          ]
+        },
+        "plate": {
+          "row": 1,
+          "column": 0,
+          "rect": [
+            32,
+            376,
+            270,
+            237
+          ]
+        },
+        "soup-bowl": {
+          "row": 1,
+          "column": 1,
+          "rect": [
+            353,
+            388,
+            247,
+            215
+          ]
+        },
+        "mixing-bowl": {
+          "row": 1,
+          "column": 2,
+          "rect": [
+            640,
+            362,
+            287,
+            259
+          ]
+        },
+        "baking-tray": {
+          "row": 1,
+          "column": 3,
+          "rect": [
+            955,
+            387,
+            282,
+            213
+          ]
+        },
+        "chef-knife": {
+          "row": 2,
+          "column": 0,
+          "rect": [
+            37,
+            653,
+            281,
+            245
+          ]
+        },
+        "spatula": {
+          "row": 2,
+          "column": 1,
+          "rect": [
+            353,
+            639,
+            256,
+            260
+          ]
+        },
+        "wooden-spoon": {
+          "row": 2,
+          "column": 2,
+          "rect": [
+            656,
+            641,
+            253,
+            258
+          ]
+        },
+        "whisk": {
+          "row": 2,
+          "column": 3,
+          "rect": [
+            975,
+            640,
+            239,
+            260
+          ]
+        },
+        "tongs": {
+          "row": 3,
+          "column": 0,
+          "rect": [
+            42,
+            922,
+            270,
+            283
+          ]
+        },
+        "rolling-pin": {
+          "row": 3,
+          "column": 1,
+          "rect": [
+            367,
+            925,
+            247,
+            273
+          ]
+        },
+        "steamer-basket": {
+          "row": 3,
+          "column": 2,
+          "rect": [
+            654,
+            922,
+            263,
+            279
+          ]
+        },
+        "sauce-bowl": {
+          "row": 3,
+          "column": 3,
+          "rect": [
+            995,
+            976,
+            194,
+            187
+          ]
+        }
+      }
+    }
+  }
+}
